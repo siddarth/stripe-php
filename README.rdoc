@@ -1,0 +1,22 @@
+= About
+
+These are two sample PHP pages that use stripe.js from Stripe (stripe.com) to
+charge credit cards. index.php charges $10, while amount.php lets the client
+specify the amount.
+
+With stripe.js, you never have to handle sensitive card data. It's
+automatically converted to a token which you can safely send to your servers
+and use to charge your customers.
+
+= Usage
+
+1. Copy the files over to your server.
+2. Download the stripe PHP bindings from https://github.com/stripe/stripe-php.
+3. Edit the files to fix the following: STRIPE_PUBLISHABLE_KEY,
+STRIPE_API_KEY, and path-to-Stripe.php. Stripe's API keys can be obtained by
+signing up for an account at stripe.com
+
+= Documentation
+
+API Reference: https://stripe.com/api
+General documentation: https://stripe.com/docs/
