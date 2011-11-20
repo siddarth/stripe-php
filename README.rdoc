@@ -12,9 +12,7 @@ and use to charge your customers.
 
 1. Copy the files over to your server.
 2. Download the stripe PHP bindings from https://github.com/stripe/stripe-php.
-3. Edit the files to fix the following: STRIPE_PUBLISHABLE_KEY,
-STRIPE_API_KEY, and path-to-Stripe.php. Stripe's API keys can be obtained by
-signing up for an account at stripe.com
+3. Edit the files to fix the following: STRIPE_PUBLISHABLE_KEY, STRIPE_API_KEY, and path-to-Stripe.php. Stripe's API keys can be obtained by signing up for an account at stripe.com
 
 = Documentation
 
